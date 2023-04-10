@@ -212,7 +212,6 @@ void loop() {
   if(check==1){
     LED();
   }
-  wdt_reset();
   if(digitalRead(WDI)==LOW){
     wdt_reset();
     }
